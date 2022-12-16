@@ -1,2 +1,2 @@
-/env
-/command_docker.txt
+env/
+docker_python_favicon/command_docker.txt
