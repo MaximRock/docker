@@ -1,0 +1,7 @@
+Запуск контейнера
+sudo docker run -d -v "$PWD":/app python_favicon:v1
+
+sudo docker build -t favico:v1 ~/github/docker/docker_python_favicon
+
+удаляет все контейнеры и образы
+docker system prune -a
