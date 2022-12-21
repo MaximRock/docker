@@ -5,6 +5,7 @@ $ sudo docker build -t pos_sql:v1 .
 sudo docker run -p 5000:5000 --mount type=bind,source=/srv/app/conf/web.conf,destination=/srv/app/conf/web.conf --mount type=bind,source=/srv/app/web.py,destination=/srv/app/web.py cc01eca8c2f6
 ##### Screenshots
 
-![img](https://drive.google.com/file/d/1olzpQxHU3E-BBJnbI9XtxzXioOG8_SHw/view?usp=share_link)
 
-![](https://drive.google.com/file/d/1WXp5iSDf-r_6eHoF2U03-a9z_rHmVLwO/view?usp=share_link)
+![12_1](https://user-images.githubusercontent.com/95434302/208955364-2a9ee20c-7229-4bb5-8f4f-f49638cec719.png)
+
+![13_1](https://user-images.githubusercontent.com/95434302/208955414-165535fb-b72c-4d04-b2a1-b07ad97cbae5.png)
