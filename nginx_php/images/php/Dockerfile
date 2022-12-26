@@ -28,3 +28,4 @@ WORKDIR /var/www
 
 # Запускаем контейнер
 CMD ["php-fpm"]
+
