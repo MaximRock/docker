@@ -12,7 +12,7 @@ services:
     links:
       - php
     healthcheck:
-      test: curl -f http://127.0.0.1:80 | grep works
+      test: curl -f http://127.0.0.1:80 | grep works  || exit 1
       interval: 5s
       retries: 5
       start_period: 1s
